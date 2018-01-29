@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            background-color: teal;
+            color: white;
+            padding: 10px;
+        }
+
+        .container {
+            box-shadow: 1px 2px 30px black;
+            padding: 10px;
+        }
+
+        h2 {
+            color: teal;
+            font-family: georgia;
+            border-bottom: 2px solid lightgray;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+        }
+
+        textarea {
+            width: 97%;
+            height: 100px;
+        }
+
+        #submit {
+            width: 50%;
+            border: 0px;
+            background-color: teal;
+            color: white;
+        }
+
+        @media screen and (max-width: 980px) {
+            input {
+                width: 95%;
+                padding: 10px;
+            }
+            textarea {
+                width: 95%;
+                padding: 10px;
+            }
+            #submit {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            input {
+                width: 95%;
+                padding: 10px;
+            }
+            textarea {
+                width: 95%;
+                padding: 10px;
+            }
+            #submit {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+            input {
+                width: 95%;
+                padding: 10px;
+            }
+            textarea {
+                width: 95%;
+                padding: 10px;
+            }
+            #submit {
+                width: 50%;
+            }
+        }
+
+        label {
+            font-family: arial;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:white;box-shadow:1px 2px 30px black;position:fixed;top:0%;left:0%;width:100%">
+        <h1>OLUMIDE FARINMADE</h1>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="container">
+        <h2>Contact</h2>
+        <form>
+            <label>Name</label>
+            <br/>
+            <br/>
+            <input type="text" placeholder="Enter your name" />
+            <br/>
+            <br/>
+            <label>Email</label>
+            <br/>
+            <br/>
+            <input type="email" placeholder="Enter your email" />
+            <br/>
+            <br/>
+            <label>Message</label>
+            <br/>
+            <br/>
+            <textarea></textarea>
+            <br/>
+            <input type="submit" value="Submit" id="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
